@@ -1,0 +1,25 @@
+.leaflet-container {
+  width: 70vw;
+  height: 100vh;
+  border-radius: 12px;
+}
+
+
+.leaflet-bar .leaflet-routing-alt:last-child {
+
+  height: 150px;
+
+}
+
+.leaflet-touch .leaflet-control-layers
+.leaflet-touch .leaflet-bar {
+  width: 250px;
+}
+
+.mapContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}

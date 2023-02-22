@@ -1,0 +1,26 @@
+.homeContainer{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    background-color: azure;
+}
+
+.centerContainer{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+
+}
+
+.rightContainer{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 25%;
+    max-width: 25%;
+}
